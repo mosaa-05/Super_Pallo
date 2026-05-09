@@ -3,6 +3,7 @@ import random
 from geopy.distance import geodesic
 import database
 import questions
+# minor update
 
 # Valid lentokentät
 VALID_AIRPORTS = ["EFHK", "EGLL", "LFPG", "RJTT", "OMDB", "EDDF",

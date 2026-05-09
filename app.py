@@ -162,7 +162,7 @@ def get_airports():
         available = game_logic.get_available_airports(player_id, yhteys)
         all_airports = database.get_all_airports(yhteys)
         
-        # Muotoile kaikki lentokentät koordinaatteineen
+        # Muotoile kaikki lentokentät koordinaatteineen..
         airports_data = []
         for ident, name, lat, lon in all_airports:
             airports_data.append({

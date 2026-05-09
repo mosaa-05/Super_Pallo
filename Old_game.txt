@@ -16,6 +16,7 @@ yhteys = mysql.connector.connect(
 )
 
 
+
 # Funktiot
 
 def arvo_aarre(pelaaja_id, yhteys):
