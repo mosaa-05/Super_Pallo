@@ -207,6 +207,7 @@ def fly_to():
 # Reitti: Hae kysymys
 @app.route('/get_question')
 def get_question():
+
     # Hae nykyisen sijainnin kysymys
     return jsonify({"question": "Mikä on Saksan pääkaupunki?", "options": ["A", "B", "C"]})
 
