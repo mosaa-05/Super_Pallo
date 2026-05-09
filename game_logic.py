@@ -55,7 +55,7 @@ def assign_treasure(pelaaja_id, yhteys):
     yhteys.commit()
     kursori.close()
     return aarre_kenttä
-
+#..
 def check_game_end(pelaaja_id, yhteys):
     """Tarkistaa pelin lopputilan ja palauttaa status-dictin"""
     kursori = yhteys.cursor()
