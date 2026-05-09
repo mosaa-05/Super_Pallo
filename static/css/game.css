@@ -7,7 +7,6 @@
     background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
     overflow: hidden;
 }
-
 /* Stats Bar */
 .stats-bar {
     display: flex;
@@ -473,4 +472,3 @@
         grid-template-columns: 1fr;
     }
 }
-

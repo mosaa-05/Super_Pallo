@@ -6,7 +6,7 @@
 var version = "1.9.4";
 
 /*
- * @namespace Util
+ * @namespace Util..
  *
  * Various utility functions, used by Leaflet internally.
  */
